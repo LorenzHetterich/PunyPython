@@ -123,7 +123,7 @@ I don't really understand the details of the encoding, but we can decode the scr
 
 ```py
 import sys
-print("\n".join([l for l in open(sys.argv[1], "rb")][1:]).decode("punycode"))
+print((b"\n" + b"\n".join(open(sys.argv[1], "rb").read().split(b"\n")[1:])).decode("punycode"))
 ```
 
 We get the following code (see `decoded.py`):
