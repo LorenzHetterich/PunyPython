@@ -82,7 +82,7 @@ Especially in the first two lines, you can use comments to indicate how the pyth
 
 ### Encoding
 
-One thing you can specify is the encoding (The way how characters are encoded. This is relevant for characters that are bigger than 255 and thus cannot be represented in a single byte.).
+One thing you can specify is the encoding (The way how characters are encoded. This is relevant as soon as you have characters that are bigger than 255 and thus cannot be represented in a single byte.).
 By default, python is supposed to use `utf-8` (but I'm not sure this is the case on Windows.) - the most sensible encoding to use!
 But if we want something else, we can add a comment in the first line specifying a different encoding like this:
 
