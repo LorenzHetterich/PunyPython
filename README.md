@@ -92,14 +92,14 @@ But if we want something else, we can add a comment in the first line specifying
 
 More specifically it can also be in the second line, if the first line is a comment.
 And, the interpreter searches for the following pattern: `coding[=:]\s*([-\w.]+)` - meaning `coding` followed directly by `=` or `:`, then an arbitrary amount of whitespace characters followed by an arbitrary amount (but at least one) of `.`, `-`, or characters that match `\w` (`a-z`, `A-Z`, `0-9`, and `_`).
-One important observation: The interpreter searches this pattern ANYWHERE in the line, so the line can also contain a lot of crap apart from it.
+One important observation: The interpreter searches this pattern ANYWHERE in the line, so the line can also contain a lot of other stuff apart from it.
 
 
 ### The encoding used in the code
 
 So if we look through the first line of the script, we can find `coding=punycode` which matches the pattern!
 So we use `punycode` to encode the file?
-WTF is that?
+What is that?
 
 You may know that Internet domains can contain emoji characters now (e.g., `i❤️.ws` is a valid domain).
 However, everything that makes up the backbones of the internet can basically only handle ascii characters.
