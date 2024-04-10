@@ -1,4 +1,4 @@
-#They say codying is fun, but I like puns, so when I code, coding!=funnycode, but coding=punycode ... anyways, here is some nice python code :)
+#They say codying is fun, but I like puns, so when I code, coding!=funnycode, but coding=punycode! ... anyways, here is some nice python code :)
 
 I="I"
 love="love"
